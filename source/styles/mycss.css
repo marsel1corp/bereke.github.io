@@ -1,0 +1,102 @@
+@import url(
+    https://fonts.googleapis.com/css?family=Aboreto&display=swap
+);
+
+body 
+
+{
+    font-family: Aboreto, Serif;
+    background: linear-gradient(180deg, #ff0000 0%, #141419 100%);
+}
+h5 {
+	color: red;
+}
+p {
+    color: red;
+}
+.nav-link {
+    color: red;
+}
+.navbar-nav .nav-link.active {
+    color: rgba(249, 2, 2, 0.832);
+}
+.navbar-brand img {
+    width: 41px;
+}
+.navbar-toggler {
+    background-color: rgb(206, 13, 13);
+}
+.side-bar {
+    color: rgb(0, 8, 8);
+    background: linear-gradient(120deg, #0719F6 0%, #141419 100%);
+}
+.card {
+    background: linear-gradient(180deg, #ff0000 0%, #141419 100%);
+color:red
+}
+.card a {
+    text-decoration: none;
+    color: rgb(2, 1, 0);
+
+}
+.carousel-caption  {
+    color: rgb(0, 12, 8);
+}
+.footer-text {color: rgb(5, 0, 0);}
+.footer {
+    background: linear-gradient(180deg, #0c0e1c 0%, #141419 100%);
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner {
+  
+   
+}
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+.btn-outline-primary {
+    
+}
+.round {
+	border: 3px;
+	border-radius: 100px;
+	box-shadow: none;
+}
+.video-text {
+	color: #ff0000;
+}
+.col-lg-12 {
+	color
+}
